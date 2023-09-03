@@ -45,7 +45,28 @@ int main()
 }
 是5
 -----------------------------------------------------
-2. std::endl
+#include <iostream> // for std::cout
+
+int main()
+{
+    std::cout << "Hi!";
+    std::cout << "My name is Alex.";
+    return 0;
+}
+是Hi!My name is Alex.
+如果想分行要用std::endl
+#include <iostream> // for std::cout and std::endl
+
+int main()
+{
+    std::cout << "Hi!" << std::endl; // std::endl will cause the cursor to move to the next line of the console
+    std::cout << "My name is Alex." << std::endl;
+
+    return 0;
+}
+是Hi!
+My name is Alex
+-----------------------------------------------------------------------------------------
 
 
 
