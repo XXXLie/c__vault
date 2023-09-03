@@ -82,7 +82,24 @@ int main()
 是=      x is equal to: 5
            And that's all, folks!
 -----------------------------------------------------------------------------------------
+using the insertion operator (`<<`), `std::cin` (which stands for “character input”) reads input from keyboard using the extraction operator (`>>`). The input must be stored in a variable to be used.
 
+
+#include <iostream>  // for std::cout and std::cin
+
+int main()
+{
+    std::cout << "Enter a number: "; // ask user for a number
+
+    int x{ }; // define variable x to hold user input (and zero-initialize it)
+    std::cin >> x; // get number from keyboard and store it in variable x
+
+    std::cout << "You entered " << x << '\n';
+    return 0;
+}
+
+
+std::sin可以捕捉你打的字,然後處存到x裡面
 
 
 
