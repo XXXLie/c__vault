@@ -99,7 +99,7 @@ int main()
 }
 
 
-std::sin可以捕捉你打的字,然後處存到x裡面
+std::sin可以捕捉你打的字,然後儲存到x裡面
 是 Enter a number: 4
     You entered 4
 
