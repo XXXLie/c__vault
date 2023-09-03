@@ -1,6 +1,6 @@
 # 1.5 — Introduction to iostream: cout, cin, and endl
 詳細的解釋類似std::cout的東西
-1.std:cout可以傳送資料到控制台
+1. std:cout可以傳送資料到控制台
 #include <iostream> // for std::cout
 
 int main()
@@ -43,7 +43,9 @@ int main()
     std::cout << "x is equal to: " << x;
     return 0;
 }
-
+是5
+-----------------------------------------------------
+2. std::endl
 
 
 
